@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="216dp"
+        android:layout_height="35dp"
+        android:text="Finalizar tentativa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <RadioGroup
+        android:id="@+id/grupoPergunta1"
+        android:layout_width="356dp"
+        android:layout_height="179dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="259dp"
+            android:layout_height="36dp"
+            android:text="1) Quantos dedos temos no total" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="259dp"
+            android:layout_height="26dp"
+            android:text="5" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="259dp"
+            android:layout_height="26dp"
+            android:text="20" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="259dp"
+            android:layout_height="26dp"
+            android:text="10" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="259dp"
+            android:layout_height="26dp"
+            android:text="15" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/grupoPergunta2"
+        android:layout_width="355dp"
+        android:layout_height="190dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="259dp"
+            android:layout_height="36dp"
+            android:text="2) Qual o resultado: 2 * 3 + 1" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="259dp"
+            android:layout_height="26dp"
+            android:text="9" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="259dp"
+            android:layout_height="26dp"
+            android:text="10" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="259dp"
+            android:layout_height="26dp"
+            android:text="8" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="259dp"
+            android:layout_height="26dp"
+            android:text="7" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
